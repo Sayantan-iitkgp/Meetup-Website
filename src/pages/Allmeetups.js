@@ -9,7 +9,7 @@ function AllmeetupsPage() {
 
   useEffect(() => {
     fetch(
-      "https://meetup-website-35250-default-rtdb.firebaseio.com/Meetups.json"
+      "https://meetupwebsiteexpire-default-rtdb.firebaseio.com/Meetups.json"
     )
       .then((a) => {
         return a.json();
